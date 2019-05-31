@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="calculator.js"></script>
+  <link href="css/button.css" rel="stylesheet">
+  <title>Jacob's Calculator Company</title>
+</head>
+
+<body>
+
+  <fieldset class="fieldset-auto-width">
+
+    <div class="grid-container">
+      <form>
+        <input type="text" class="entry_bar" id="view" text-align="right">
+        <!--THIS IS THE VIEW BAR NOT THE SUBMIT BUTTON -->
+        <br><br>
+        <button type="button" class="long_button" id="submit" onclick="equal()">EQUALS</button>
+        <br><br>
+        <button type="reset" class="long_button">CLEAR</button>
+      </form>
+
+      <br>
+
+      <div class="grid-row">
+        <button type="button" class="button" onclick="draw(this)">1</button>
+        <button type="button" class="button" onclick="draw(this)">2</button>
+        <button type="button" class="button" onclick="draw(this)">3</button>
+      </div>
+
+      <br>
+
+      <div class="grid-row">
+        <button type="button" class="button" onclick="draw(this)">4</button>
+        <button type="button" class="button" onclick="draw(this)">5</button>
+        <button type="button" class="button" onclick="draw(this)">6</button>
+      </div>
+
+      <br>
+
+      <div class="grid-row">
+        <button type="button" class="button" onclick="draw(this)">7</button>
+        <button type="button" class="button" onclick="draw(this)">8</button>
+        <button type="button" class="button" onclick="draw(this)">9</button>
+      </div>
+
+      <br>
+
+      <div class="grid-row">
+        <button type="button" class="button" id="plus" onclick="operation(this)">-</button>
+        <button type="button" class="button" onclick="draw(this)">0</button>
+        <button type="button" class="button" id="minus" onclick="operation(this)">+</button>
+      </div>
+
+
+
+
+
+
+    </div>
+    <!--  <button type="button" onclick="draw()">Run Script</button> -->
+  </fieldset>
+</body>
+
+</html>

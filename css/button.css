@@ -1,0 +1,64 @@
+.grid-row {
+  display: inline-block;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: white;
+  color: #f44336;
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 25px;
+
+}
+
+.button:hover {
+  background: #f44336;
+  color: white;
+  border-color: white;
+}
+
+.entry_bar {
+  width: 150px;
+  height: 50px;
+  text-align: right;
+  border: 2px solid red;
+  border-radius: 4px;
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+.long_button {
+  width: 155px;
+  border-radius: 8px;
+  background-color: #f44336;
+  color: white;
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  border-color: white;
+}
+
+.long_button:hover {
+  background: white;
+  color: #f44336;
+}
+
+.fieldset-auto-width {
+     display: inline-block;
+     border-color: #f44336;
+     border-radius: 8px;
+     border-style: solid;
+     background-color: #f44336;
+}
+
+.selectedStyle {
+  background: #dodgerblue;
+  color: white;
+  border-color: white;
+}
